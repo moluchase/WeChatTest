@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 header("Content-type: text/html; charset=utf-8");
 define("TOKEN", "molu");
 $wechatObj = new wechatTest();
@@ -142,8 +142,8 @@ class wechatTest
      */
     public function youdaoDic($object, $words)
     {
-        $keyfrom = 'molushuo';
-        $apikey = '375011110';
+        $keyfrom = '--------';
+        $apikey = '----------';
         $doctype = 'xml';
         // 这个地址返回的是XML文件
         $url_youdao = 'http://fanyi.youdao.com/openapi.do?keyfrom=' . $keyfrom . '&key=' . $apikey;
